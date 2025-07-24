@@ -11,7 +11,7 @@ A storm is brewing, dark clouds loom menacingly over the open sea. Players find 
 The cigarette is slowly lit with a lighter, and the smoke can be inhaled with the left mouse button. Technically, a combination of VFX graphics, particle systems, and shaders was used to create a dense and immersive atmosphere that allows the player to experience the feeling of time and space in this static scene.
 
 <p>
-  <a href="" target="_blank" rel="noopener noreferrer">Play Game</a>
+  <a href="https://georg-juranek.itch.io/a-last-cigarette" target="_blank" rel="noopener noreferrer">Play Game</a>
 </p>
 
 <div style="clear: both;"></div>
