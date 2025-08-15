@@ -1,4 +1,9 @@
 # Simulation (VFX, Shader)
+
+| 💡 **Conception** | 🧨 **Timeframe**                   | ⚙️ **Technical Stack** |
+|----------------|---------------------------------|---------------------|
+| Georg Juranek  | 1,5 Month<br>(SAE Sem2)     | `Unity`<br>`Shader Graph`<br>`VFX Graph`<br>`Particle Systems`|
+
 ## A Last Cigarette
 
 
@@ -10,6 +15,9 @@ Die Zigarette entzündet sich langsam am Feuerzeug, und mit der linken Maustaste
 A storm is brewing, dark clouds loom menacingly over the open sea. Players find themselves in a small boat with no oars or means of propulsion – a hopeless situation that conveys an atmosphere of stagnation and loneliness. The game focuses on a single interaction: lighting and smoking a cigarette.
 The cigarette is slowly lit with a lighter, and the smoke can be inhaled with the left mouse button. Technically, a combination of VFX graphics, particle systems, and shaders was used to create a dense and immersive atmosphere that allows the player to experience the feeling of time and space in this static scene.
 
+<p>
+  <a href="https://youtu.be/lJG3ABByBls" target="_blank" rel="noopener noreferrer">Watch Video</a>
+</p>
 <p>
   <a href="https://georg-juranek.itch.io/a-last-cigarette" target="_blank" rel="noopener noreferrer">Play Game</a>
 </p>
