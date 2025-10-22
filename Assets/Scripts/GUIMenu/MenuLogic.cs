@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuLogic : MonoBehaviour
 {
@@ -49,6 +50,11 @@ public class MenuLogic : MonoBehaviour
         }
 
         CreditsBox.SetActive(!CreditsBox.activeSelf);
+    }
+
+    public void OnReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void OnQuit()

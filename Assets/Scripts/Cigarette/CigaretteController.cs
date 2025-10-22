@@ -39,15 +39,25 @@ public class CigaretteController : MonoBehaviour
 
     float amountRelativeToDistance;
 
+    [SerializeField]
+    AudioSource CigaretteDragAudioSource;
+
+    [SerializeField]
+    AudioSource BreathInOutAudioSource;
+
 
     private void Awake()
     {
-
         float distanceToEnd = Vector3.Distance(toMove.localPosition, endPosition.localPosition);
 
         amountRelativeToDistance = distanceToEnd * (consumationAmount / 1);
 
         rendererOfToMove = toMove.gameObject.GetComponent<Renderer>();
+    }
+
+    private void OnEnable()
+    {
+        CigaretteDragAudioSource.PlayOneShot(CigaretteDragAudioSource.clip);
     }
 
     void Update()
@@ -66,7 +76,9 @@ public class CigaretteController : MonoBehaviour
     public void Inhale()
     {
         if (Time.timeScale == 0) return;
-            
+
+        CigaretteDragAudioSource.Play();
+
         targetConsumation += consumationAmount;
         StartCoroutine(Consumation());
     }
@@ -100,6 +112,7 @@ public class CigaretteController : MonoBehaviour
 
             yield return null;
         }
+        BreathInOutAudioSource.Play();
 
         exhaleEffect.Stop();
 
